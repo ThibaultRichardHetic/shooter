@@ -68,4 +68,30 @@
   margin-left: -6vmin;
   margin-top: -6vmin;
   background: #dddddd;
+  border-radius: 100%;
+  box-shadow: 5px 5px 15px #00000055;
+}
+
+.shooter .targets .target::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% / 3 * 2);
+  height: calc(100% / 3 * 2);
+  transform: translate(-50%, -50%);
+  background: #cd0000;
+  border-radius: 100%;
+}
+
+.shooter .targets .target::after{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% / 3);
+  height: calc(100% / 3);
+  transform: translate(-50%, -50%);
+  background: #dddddd;
+  border-radius: 100%;
 }
