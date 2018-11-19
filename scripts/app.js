@@ -22,8 +22,8 @@ shooter.bestScore = parseInt(shooter.bestScore)
 shooter.$bestScore.textContent = shooter.bestScore
 
 shooter.sounds = {}
-shooter.sounds.ding = new Audio('ding.mp3')
-shooter.sounds.finish = new Audio('finish.mp3')
+shooter.sounds.ding = new Audio('shooter-sounds/ding.mp3')
+shooter.sounds.finish = new Audio('shooter-sounds/finish.mp3')
 
 shooter.$start.addEventListener('click', () =>
 {
